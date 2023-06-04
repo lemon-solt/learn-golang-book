@@ -1,0 +1,10 @@
+{{ define "layout" }}
+
+<div>
+    blockコンテンツ
+    {{ block "content" . }}
+    <h1>not contents</h1>
+    {{ end }}
+</div>
+
+{{ end }}

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<post id="1">
+    <content>愛はあるんか？</content>
+    <author id="hoge">俺</author>
+
+    <comments>
+        <comment id="1">
+            <content>その株。かええやん</content>
+            <author id="3">まさよし</author>
+        </comment>
+        <comment id="2">
+            <content>買わんほうがええで</content>
+            <author id="4">みきたに</author>
+        </comment>
+    </comments>
+</post>

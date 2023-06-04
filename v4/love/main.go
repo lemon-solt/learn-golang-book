@@ -7,7 +7,6 @@ import (
 	"runtime"
 )
 
-
 func love(w http.ResponseWriter, r *http.Request) {
 	fmt.Fprintf(w, "愛はあるんか")
 }
@@ -20,10 +19,9 @@ func log(h http.HandlerFunc) http.HandlerFunc {
 	}
 }
 
-
-func main(){
+func main() {
 	server := http.Server{
-		Addr: ":7000",
+		Addr: ":7001",
 	}
 
 	http.HandleFunc("/love", log(love))

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>俺Tube</title>
+    <style>
+        /* リセットCSS */
+        body,
+        h1,
+        h2,
+        h3,
+        p,
+        ul,
+        li {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* 全体のスタイル */
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        /* ヘッダー */
+        header {
+            background-color: #ff0000;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        /* メインコンテンツ */
+        main {
+            padding: 20px;
+        }
+
+        .thumbnail-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            grid-gap: 20px;
+            margin-top: 20px;
+        }
+
+        .thumbnail-item {
+            background-color: #f2f2f2;
+            text-align: center;
+        }
+
+        .thumbnail-item img {
+            width: 100%;
+            height: auto;
+        }
+
+        .thumbnail-item h3 {
+            margin-top: 10px;
+            font-size: 16px;
+        }
+
+        .thumbnail-item p {
+            color: #888;
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- ヘッダー -->
+    <header>
+        <h1>俺Tube</h1>
+    </header>
+
+    <!-- メインコンテンツ -->
+    <main>
+        <div class="thumbnail-grid">
+            <div class="thumbnail-item">
+                <img src="thumbnail1.jpg" alt="サムネイル1">
+                <h3>動画タイトル1</h3>
+                <p>動画の説明文がここに入ります。</p>
+            </div>
+            <div class="thumbnail-item">
+                <img src="thumbnail2.jpg" alt="サムネイル2">
+                <h3>動画タイトル2</h3>
+                <p>動画の説明文がここに入ります。</p>
+            </div>
+            <div class="thumbnail-item">
+                <img src="thumbnail3.jpg" alt="サムネイル3">
+                <h3>動画タイトル3</h3>
+                <p>動画の説明文がここに入ります。</p>
+            </div>
+            <!-- 他のサムネイルの表示 -->
+        </div>
+    </main>
+</body>
+
+</html>

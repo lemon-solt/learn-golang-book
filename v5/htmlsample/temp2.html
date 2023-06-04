@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ . }} 検索結果</title>
+    <style>
+        /* リセットCSS */
+        body,
+        h1,
+        h2,
+        h3,
+        p,
+        ul,
+        li {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* 全体のスタイル */
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        /* 検索バー */
+        #search-bar {
+            margin: 20px 0;
+        }
+
+        #search-bar input[type="text"] {
+            width: 600px;
+            padding: 5px;
+            font-size: 16px;
+        }
+
+        #search-bar button {
+            padding: 5px 10px;
+            font-size: 16px;
+        }
+
+        /* 検索結果 */
+        .search-result {
+            margin-bottom: 20px;
+        }
+
+        .search-result h3 {
+            font-size: 18px;
+            margin-bottom: 5px;
+        }
+
+        .search-result p {
+            font-size: 14px;
+            color: #888;
+        }
+
+        .search-result a {
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="search-bar">
+        <input type="text" placeholder="{{ . }}で検索">
+        <button>検索</button>
+    </div>
+
+    <div class="search-result">
+        <h3><a href="#">検索結果のタイトル1</a></h3>
+        <p>検索結果の説明文がここに入ります。検索キーワードと関連する情報が表示されます。</p>
+    </div>
+
+    <div class="search-result">
+        <h3><a href="#">検索結果のタイトル2</a></h3>
+        <p>検索結果の説明文がここに入ります。検索キーワードと関連する情報が表示されます。</p>
+    </div>
+
+    <div class="search-result">
+        <h3><a href="#">検索結果のタイトル3</a></h3>
+        <p>検索結果の説明文がここに入ります。検索キーワードと関連する情報が表示されます。</p>
+    </div>
+
+    <!-- 他の検索結果の表示 -->
+
+</body>
+
+</html>
