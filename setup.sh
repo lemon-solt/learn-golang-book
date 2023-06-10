@@ -17,6 +17,8 @@ go install -v $GO_PLS_VERSION
 go install -v $GO_OUTLINE_VERSION
 go install -v $GO_CODE_VERSION
 
+go get -u gorm.io/gorm
+go get -u gorm.io/driver/postgres
 
 code --install-extension golang.go
 
